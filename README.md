@@ -1,5 +1,8 @@
 # goldenRatio
 学習ソフトウェア
 
-imageファイルについては，image.zipを解凍して使用。
-saveimgファイルについては，saveimg.zipを解凍して使用。
+「grMain.py」はメインで使用するファイルである。
+「grSub.py」は「grMain.py」で使用するモジュールが組み込まれたインポート用のファイルである。
+
+imageファイルについては，「image.zip」を解凍して使用。
+saveimgファイルについては，「saveimg.zip」を解凍して使用。
