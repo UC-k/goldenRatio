@@ -25,7 +25,8 @@ class Main(tk.Frame):
         self.reNum = 0
         self.signal = 0
         self.NOreprg_btn = 0
-        self.num = 0#セーブ回数(保存psのナンバリング)
+        self.num = 0
+        self.save_num = 0 #セーブ回数(保存psのナンバリング)
         self.Start()
 
 # Start ===============================================================================================================
@@ -1099,8 +1100,8 @@ class Main(tk.Frame):
     
     # セーブ
     def save_canvas(self):
-        self.num += 1
-        self.cvs.postscript(file = 'saveimg/self' + str(self.num) + '.ps', colormode='color')
+        self.save_num += 1
+        self.cvs.postscript(file = 'saveimg/self' + str(self.save_num) + '.ps', colormode='color')
 
 
 # All & URL============================================================================================================
